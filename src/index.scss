@@ -2,22 +2,39 @@ body{
 
 }
 
+.div_exo_normal{
+    margin: 20px;
+    border: solid black;
+}
+.div_exo_min_et_max{
+    margin: 20px;
+    border: solid red;
+}
+
 h1{
     text-align: center;
 }
-
 .body_counter{
-    margin-top: 10%;
+    margin-top: 5%;
     justify-content: center;
     display: flex;
 }
-
+.div_button{
+    margin: 2%;
+    text-align: center;
+    button{
+        font-size: 200%;
+        height: 50px;
+        width: 50px;
+    }
+}
 .div_counter{
     height: 100px;
     width: 100px;
     margin: 5px;
     border: solid black 2px;
     p{
+        margin-top: 4%;
         text-align: center;
     }
     button{
