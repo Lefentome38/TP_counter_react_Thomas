@@ -1,0 +1,27 @@
+body{
+
+}
+
+h1{
+    text-align: center;
+}
+
+.body_counter{
+    margin-top: 10%;
+    justify-content: center;
+    display: flex;
+}
+
+.div_counter{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: solid black 2px;
+    p{
+        text-align: center;
+    }
+    button{
+        width: 100%;
+        width: 100%;
+    }
+}
