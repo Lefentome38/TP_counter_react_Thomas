@@ -21,7 +21,7 @@ const Counter_min_max = (props: { name: string, cpt: number}) => {
 
     return (
       <>
-        <div className="div_counter">
+        <div className="counter">
             <p>{props.name}</p>
             <p>{Max}</p>
             <button onClick={counterPlus}>+</button>

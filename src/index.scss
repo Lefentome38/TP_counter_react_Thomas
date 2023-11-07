@@ -1,19 +1,25 @@
 body{
-
+    
+    h1{
+        text-align: center;
+    }
+    .div_exo_normal{
+        margin: 20px;
+        border: solid black;
+    }
+    .div_exo_min_et_max{
+        margin: 20px;
+        border: solid red;
+    }
+    
+    .div_counter_exo5{
+        margin: 20px;    
+        border: solid green;
+    }
 }
 
-.div_exo_normal{
-    margin: 20px;
-    border: solid black;
-}
-.div_exo_min_et_max{
-    margin: 20px;
-    border: solid red;
-}
 
-h1{
-    text-align: center;
-}
+
 .body_counter{
     margin-top: 5%;
     justify-content: center;
@@ -28,7 +34,7 @@ h1{
         width: 50px;
     }
 }
-.div_counter{
+.counter{
     height: 100px;
     width: 100px;
     margin: 5px;
